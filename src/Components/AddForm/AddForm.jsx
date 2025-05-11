@@ -15,7 +15,7 @@ const AddForm = (props) => {
             onChange={(e) => setTitle(e.target.value)}
           />
           <button type="submit" className="submit-btn">
-            {editId ? "Update" : "Add"}
+            {editId ? "อัปเดท" : "เพิ่ม"}
           </button>
         </div>
       </form>
