@@ -19,7 +19,7 @@
 
 .dark{
     background: #393E46;
-    color: #fff;
+    color: #E2DFD0;
     transition: all 500ms;
 }
 
@@ -43,4 +43,16 @@
 .dark .submit-btn{
     background: #697565;
     color: #fff;
+}
+
+.dark .logo {
+    color: #E2DFD0;
+}
+
+.dark .theme-container .logo{
+    color: #E2DFD0;
+}
+
+.dark .theme-container .mode{
+    color: #E2DFD0;
 }

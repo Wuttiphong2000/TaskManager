@@ -3,26 +3,24 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { FaSun } from "react-icons/fa";
 
 const Header = (props) => {
-  const {theme,setTheme} = props;
+  const { theme, setTheme } = props;
 
-  const toggleTheme = () =>{
-    if(theme==="light"){
-      setTheme("dark")
-    }else{
-      setTheme("light")
+  const toggleTheme = () => {
+    if (theme === "light") {
+      setTheme("dark");
+    } else {
+      setTheme("light");
     }
-  }
+  };
   return (
     <header>
       <div className="logo">
-        <h1>
-          Task <span>Manager</span>
-        </h1>
+        <h1>To Do List</h1>
       </div>
       <div className="theme-container">
-        <span>{theme === "light" ? "โหมดกลางวัน" : "โหมดกลางคืน"}</span>
+        <span className="mode">{theme === "light" ? "โหมดกลางวัน" : "โหมดกลางคืน"}</span>
         <span className="icon" onClick={toggleTheme}>
-          {theme==="light"? <FaSun /> : <BsFillMoonStarsFill />}
+          {theme === "light" ? <FaSun /> : <BsFillMoonStarsFill />}
         </span>
       </div>
     </header>
