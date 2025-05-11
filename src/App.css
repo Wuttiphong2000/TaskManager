@@ -3,26 +3,44 @@
 }
 
 .container {
-    background: #fff;
+    background: #FFE0B5;
     padding: 1.2rem;
     margin: 3rem auto;
-    max-width: 35rem;
+    max-width: 80rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 0.25rem;
 }
 
 .light{
-    background: #fff;
+    background: #FFF2D7;
     color: #000;
     transition: all 500ms;
 }
 
 .dark{
-    background: #15252b;
+    background: #393E46;
     color: #fff;
     transition: all 500ms;
 }
 
 .dark header{
+    background: #222831;
     box-shadow: 0 1px 3px rgb(255, 255, 255);
+}
+
+.dark .container{
+    background: #31363F;
+}
+
+.dark .title{
+    color: #fff;
+}
+
+.dark h2{
+    color: #fff;
+}
+
+.dark .submit-btn{
+    background: #697565;
+    color: #fff;
 }
